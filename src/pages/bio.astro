@@ -1,8 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Biography from '../components/Biography.astro';
+import { content } from '../content/bio.js';
 ---
 
 <Layout 
 	title="Amort Media"
 	pageName="Bio">
+	<Biography body={content}></Biography>
 </Layout>

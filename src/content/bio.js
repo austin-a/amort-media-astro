@@ -1,0 +1,1 @@
+export const content = "here at rockwell automation, we build cool stuff";
